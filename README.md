@@ -15,6 +15,12 @@ Text Animation
 -   add class
 -   transition
 
+Progress Bar Animation
+
+-   getBoundingClientRect
+-   scroll - add event listener
+-   document.documentElement.clientHeight (html)
+
 ## Screenshots
 
 > Text animation
@@ -38,3 +44,5 @@ I'm a front-end software engineer with backend knowledge.
 ## Acknowledgements
 
 -   [Vanilla Javascript Text Animation Tutorial](https://www.youtube.com/watch?v=GUEB9FogoP8&list=PLDyQo7g0_nsXEOxGlAgccV8fu-cHZnI5B&index=8)
+
+-   [Javascript Progress Bar Animation Tutorial](https://www.youtube.com/watch?v=mJ_SfLJKVs8)

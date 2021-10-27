@@ -1,7 +1,6 @@
 const text = document.querySelector(".fancy");
 const strText = text.textContent;
 const splitText = strText.split("");
-console.log(splitText);
 text.innerHTML = "";
 
 for (let value of splitText) {
@@ -9,7 +8,7 @@ for (let value of splitText) {
 }
 
 let char = 0;
-const timer = setInterval(onTick, 50);
+let timer = setInterval(onTick, 50);
 
 function onTick() {
 	const span = document.querySelectorAll("span")[char];
